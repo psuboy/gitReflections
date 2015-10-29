@@ -6,6 +6,8 @@ git init
 
 another command: git status will give you status of git. 
 
-first you do git init
-second you run git add fileName
-then you run commit
+first you do "git init"
+second you run "git add fileName"
+then you run "git commit"
+
+Add is kind of a middle work area before it is committed
