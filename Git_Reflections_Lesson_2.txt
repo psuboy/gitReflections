@@ -8,6 +8,8 @@ another command: git status will give you status of git.
 
 first you do "git init"
 second you run "git add fileName"
-then you run "git commit"
-
 Add is kind of a middle work area before it is committed
+
+then you run "git commit"
+This will commit all changes.  It will pull up your text editor and you will be able to enter your commit message.  
+Alternatively you can run "git commit -m <msg>" directly from the command line.  This will add your message directly.  You can use multiple -m and it will concatenate them in messages.
