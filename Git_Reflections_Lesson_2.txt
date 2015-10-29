@@ -1,0 +1,11 @@
+ 
+Lesson 2:  creating a repsoistory
+
+to start a new Git repository need to either clone or run:
+git init
+
+another command: git status will give you status of git. 
+
+first you do git init
+second you run git add fileName
+then you run commit

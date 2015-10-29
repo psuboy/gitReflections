@@ -1,0 +1,36 @@
+Lesson 1:
+
+git --help  gives you a list of all your commands.
+
+What I learned.  
+there are great built in compare tools in windows and in Mac and Linux.  
+For Windows FC is the tool (FC stands for File Compare)
+In Mac or Linux the command is diff.  (sands for difference)
+the commands are used pretty similarly .  
+fc old_file new_file
+diff -u old_file new_file
+
+When to commmit:
+Commit single changes.  
+
+Copy a git repository:  Use git clone address_of_file
+
+Tracking changes arross files
+
+multilpe files called a repository...
+can look at  some good info with the stat command.
+navigate to the directory with your files.  then do:
+git log --stat   
+shows your your committs
+q for quit gets you out of it.  
+then you can do git diff with IDs you want.  
+git diff old_file new_file
+
+git Checkout
+You can reset all the files to a previous commit.  It loads the version of the repository you select into the file.  
+When you checkout a commit you get a warning "You are in a detached head state"
+
+git checkout commmitID  
+
+
+L
