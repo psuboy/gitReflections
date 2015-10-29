@@ -13,3 +13,13 @@ Add is kind of a middle work area before it is committed
 then you run "git commit"
 This will commit all changes.  It will pull up your text editor and you will be able to enter your commit message.  
 Alternatively you can run "git commit -m <msg>" directly from the command line.  This will add your message directly.  You can use multiple -m and it will concatenate them in messages.
+
+Key concept:  If you make a change in your working directory it does not change your Staging area nor does it change your last commit.
+
+Running "git diff" with no arguments will give you the changes you introduced to files in your working directory and your staging area.  
+
+you can then run "git add <fileName>" to move any files you want to place in staging area for commit.  
+
+Then you can run your commit and commit those files.  Note, you don't have to add all files you changed in working directory to the staging area.  
+
+This was the problem I was experiencing before!  I did not understand this relationship will enough.
