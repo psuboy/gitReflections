@@ -23,3 +23,5 @@ you can then run "git add <fileName>" to move any files you want to place in sta
 Then you can run your commit and commit those changes to your repository.  Note, you don't have to add all files you changed in working directory to the staging area.  
 
 This was the problem I was experiencing before!  I did not understand this relationship will enough.
+
+can run git
