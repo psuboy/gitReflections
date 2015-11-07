@@ -22,6 +22,22 @@ you can then run "git add <fileName>" to move any files you want to place in sta
 
 Then you can run your commit and commit those changes to your repository.  Note, you don't have to add all files you changed in working directory to the staging area.  
 
-This was the problem I was experiencing before!  I did not understand this relationship will enough.
+can then run: git commit  
 
-can run git
+Branching: 
+You can create multiple versions in parellel with branching.  
+To see what branches are available you can type: git branch
+To create a new branch type: git branch <newBranchName>
+
+Merging branches:   To merge branches you can use the merge command.
+Merge command: git merge branch2 <additional branches optional>
+
+Note:  it will complare the two branches you want to combine the two branches.  It is important to make note of which branch you currently have checked out.  If you have BranchA checked out and run the command:
+git merge branchB branchC you will merge branches A,B,and C...not just branches B and C.
+
+to delete old branch you just merged:
+git branch -d OldMergedBranch
+
+to see just changes of a single commit vs. it's parent use the show command:
+git show "commitID"
+
