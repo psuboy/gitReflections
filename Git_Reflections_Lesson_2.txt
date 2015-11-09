@@ -41,3 +41,8 @@ git branch -d OldMergedBranch
 to see just changes of a single commit vs. it's parent use the show command:
 git show "commitID"
 
+Fixing Merge Conflicts:
+IF you get a conflict you will get the changes added to git with lines that have >>>>>, ||||||, ======. and <<<<<< 
+these seperate 3 sections.  Head, ansester and Merged branch. 
+Make the changes you need and then save, add and commit.
+
