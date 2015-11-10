@@ -1,0 +1,11 @@
+git remote command: 
+git remote will show you what remote respositories are connected to your git directory.
+You can also add a remote repository with the command:
+git remote add "remoteBranch" "remoteLocation"  
+for example: git remote add origin https://github.com/psuboy/gitReflections.git
+Note that normally remote is called origin.
+
+Git push command.  
+to push your changes to a remote git server (www.github.com) you can use the push command.  
+git push "remoteBranch"  "localBranch" 
+example: git push origin master
