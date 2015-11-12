@@ -25,3 +25,9 @@ this will pull changes from your remote copy (origin) and copy them to your remo
 Then you can merge the two in our case the command was git merge master origin/master  
 This may result in a conflict if you changed some of the same lines.  just clean it up on the file.  add the file back in and commit it again.  You can then push that to your remote by usig git push origin.   
 
+System to get feedback on your changes.  
+When you have a new change it is a good idea to create a new branch.  Then check out that branch and make the changes.  
+Add then commit  ...then push them to github.  this will push the new branch.  
+You can then do a pull request.  this is a request for the owner of the project to pull your changes into the main branch
+It will email the owner and let them know there is a pull request.  they can review and post comments and merge or reject.
+
