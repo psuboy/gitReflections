@@ -18,3 +18,10 @@ A Clone is complete copy of an existing repository you can do it either directly
 
 A branch is a deviation off your existing code. 
 
+Fetch Merge and Pull
+If you get a change in your remote copy and a different change in your local copy it is not clear how to resolve.  
+One way is to run the command: git fetch "remote"  (git fetch origin in our case) 
+this will pull changes from your remote copy (origin) and copy them to your remote/branch  (origin/master) in our case.
+Then you can merge the two in our case the command was git merge master origin/master  
+This may result in a conflict if you changed some of the same lines.  just clean it up on the file.  add the file back in and commit it again.  You can then push that to your remote by usig git push origin.   
+
